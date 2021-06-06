@@ -17,9 +17,10 @@ source $HOME/.config/fish/config.fish
 
 ### Overview
 
-Recently I've switched to [Fish](https://fishshell.com/), and am fall in love with this. I have used [Fisher](https://github.com/jorgebucaran/fisher) to manage my Fish plugin. This is my setup:
+Recently I've switched to [Fish](https://fishshell.com/), and am fall in love with this. I have used [Fisher](https://github.com/jorgebucaran/fisher) to manage my Fish plugin, [bobthefish](https://github.com/oh-my-fish/theme-bobthefish) for git-aware awesome theme and this is my list of plugins:
 
 #### **Plugins**
 
-- [peco](https://github.com/peco/peco) - Simplistic interactive filtering tool
+- [peco](https://github.com/peco/peco) - simplistic interactive filtering tool
 - [z](https://github.com/rupa/z) - jump around
+- [exa](https://github.com/gazorby/fish-exa) - exa aliases for fish
