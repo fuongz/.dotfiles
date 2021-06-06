@@ -1,0 +1,19 @@
+execute pathogen#infect()
+
+filetype plugin indent on
+
+syntax enable
+
+set number
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
+colorscheme jellybeans
+
+let g:jellybeans_overrides = {
+\    'background': { 'ctermbg': 'none', '256ctermbg': 'none' },
+\}
+if has('termguicolors') && &termguicolors
+    let g:jellybeans_overrides['background']['guibg'] = 'none'
+endif

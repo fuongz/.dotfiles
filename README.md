@@ -7,7 +7,7 @@
 ### Install
 
 ```bash
-curl https://raw.githubusercontent.com/senpp/.dotfiles/main/install_fis.sh | sh
+curl https://raw.githubusercontent.com/senpp/.dotfiles/main/install_fish.sh | sh
 source $HOME/.config/fish/config.fish
 ```
 
@@ -24,3 +24,18 @@ Recently I've switched to [Fish](https://fishshell.com/), and am fall in love wi
 - [peco](https://github.com/peco/peco) - simplistic interactive filtering tool
 - [z](https://github.com/rupa/z) - jump around
 - [exa](https://github.com/gazorby/fish-exa) - exa aliases for fish
+
+## Vim setup
+
+### Install
+
+```bash
+curl https://raw.githubusercontent.com/senpp/.dotfiles/main/install_vim.sh | sh
+```
+
+### Overview
+
+Over the last 3 years, I've used [Vim](https://www.vim.org) like a lightweight IDE, I love it so much. [Pathogen](https://github.com/tpope/vim-pathogen) is my Vim `'runtimepath'` manager. This is my setup:
+
+#### Theme: [Jellybeans](https://github.com/nanotech/jellybeans.vim)
+
